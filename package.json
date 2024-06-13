@@ -4,7 +4,7 @@
   "description": "Learning Cypress for testing web automation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "run:chrome": "cypress run --browser chrome"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/mochammadaliesf/TAK5-Cypress#readme",
   "devDependencies": {
-    "cypress": "^13.10.0"
+    "cypress": "^13.11.0"
   }
 }
